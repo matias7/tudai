@@ -1,7 +1,7 @@
 # This application was generated with Rails Composer
 
 development:
-  apps4: rails-bootstrap
+  apps4: none
   announcements: none
   dev_webserver: puma
   prod_webserver: puma
@@ -11,20 +11,20 @@ development:
   continuous_testing: guard
   frontend: bootstrap4
   email: none
-  authentication: false
-  devise_modules: false
+  authentication: devise
+  devise_modules: confirmable
   omniauth_provider: 
-  authorization: false
+  authorization: none
   form_builder: 
-  pages: about
+  pages: about+users
   layouts: 
-  locale: none
+  locale: 
   analytics: 
   deployment: 
   ban_spiders: 
   github: 
-  local_env_file: false
-  better_errors: true
-  pry: false
-  rvmrc: true
-  dashboard: none
+  local_env_file: 
+  better_errors: 
+  pry: 
+  rvmrc: 
+  dashboard: 
