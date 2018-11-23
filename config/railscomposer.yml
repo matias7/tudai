@@ -5,7 +5,7 @@ development:
   announcements: none
   dev_webserver: puma
   prod_webserver: puma
-  database: postgresql
+  database: sqlite
   templates: erb
   tests: rspec
   continuous_testing: guard
